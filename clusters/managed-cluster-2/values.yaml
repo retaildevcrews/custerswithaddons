@@ -1,6 +1,6 @@
 cluster-name: managed-cluster-2
 destination:
-    server: https://kubernetes.default.svc
+    server: https://managed-cl-argo-labs-dfc66c-ddsc7erg.hcp.westus3.azmk8s.io
 source:
     repoURL: https://github.com/argoproj/argocd-example-apps
     targetRevision: HEAD
